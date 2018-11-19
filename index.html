@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ЦИТП им. Я.В. Косицкого / Главная</title>
+	<link rel="stylesheet" href="css/slide-animation-main.css">
 </head>
 <body>
 	<header class="main-header">
 		<h1 class="visibility-hidden">Центральный Институт типового проектирования и градостроитльства им. Я.В. Косицкого</h1>
-		<img src="#" alt="Логотип компании" class="logo">
+		<img src="img/Bitmap.svg" alt="Логотип компании" class="logo">
 		<section class="info-header">
-			<h2 class="visibility-hidden">Контактная инормация</h2>
+			<h2 class="visibility-hidden">Контактная информация</h2>
 			<p class="info-header-contacts">
 				<strong>+7 (495) 106-11-34</strong><br>
 				<span class="info-header-mail">
@@ -31,8 +32,47 @@
 	</header>
 	<main>
 		<article class="slider-photo">
-			<!-- Добавить скрипт слайдера + картинки подобрать +
-					 Добавить блок с переключением-->
+			 <div class="container">
+				<div data-am-fadeshow="next-prev-navigation">
+
+						<!-- Radio -->
+					<input type="radio" name="css-fadeshow" id="slide-1" />
+					<input type="radio" name="css-fadeshow" id="slide-2" />
+					<input type="radio" name="css-fadeshow" id="slide-3" />
+
+						<!-- Slides -->
+					<div class="fs-slides">
+						<div class="fs-slide" style="background-image: url(img/slide-image-1.jpg);">
+						<!-- Add content to images (sample) -->
+							<div>
+							</div>
+						</div>
+						<div class="fs-slide" style="background-image: url(img/slide-list-2-compressor.jpg);"></div>
+						<div class="fs-slide" style="background-image: url(img/slide-list-3-compressor.jpg);"></div>
+					</div>
+
+				<!-- Quick Navigation -->
+					<div class="fs-quick-nav">
+						<label class="fs-quick-btn" for="slide-1"></label>
+						<label class="fs-quick-btn" for="slide-2"></label>
+						<label class="fs-quick-btn" for="slide-3"></label>
+					</div>
+		
+				<!-- Prev Navigation -->
+					<div class="fs-prev-nav">
+						<label class="fs-prev-btn" for="slide-1"></label>
+						<label class="fs-prev-btn" for="slide-2"></label>
+						<label class="fs-prev-btn" for="slide-3"></label>
+					</div>
+		
+				<!-- Next Navigation -->
+					<div class="fs-next-nav">
+						<label class="fs-next-btn" for="slide-1"></label>
+						<label class="fs-next-btn" for="slide-2"></label>
+						<label class="fs-next-btn" for="slide-3"></label>
+					</div>
+				</div>
+			</div>
 		</article>
 		<section class="features">
 			<h2 class="visibility-hidden">Преимущества</h2>
@@ -44,6 +84,46 @@
 		</section>
 		<section class="about">
 			<h2>О проектном институте</h2>
+			<section class="slider-photo-about">
+				<div class="container-photo">
+				<div data-am-fadeshow="next-prev-navigation">
+
+						<!-- Radio -->
+
+						<!-- Slides -->
+					<div class="fs-slides">
+						<div class="fs-slide" style="background-image: url(img/slider-about-1.jpg);">
+						<!-- Add content to images (sample) -->
+							<div>
+							</div>
+						</div>
+						<div class="fs-slide" style="background-image: url(risunok3.jpg);"></div>
+						<div class="fs-slide" style="background-image: url();"></div>
+					</div>
+
+				<!-- Quick Navigation -->
+					<div class="fs-quick-nav">
+						<label class="fs-quick-btn" for="slide-4"></label>
+						<label class="fs-quick-btn" for="slide-5"></label>
+						<label class="fs-quick-btn" for="slide-6"></label>
+					</div>
+		
+				<!-- Prev Navigation -->
+					<div class="fs-prev-nav">
+						<label class="fs-prev-btn" for="slide-4"></label>
+						<label class="fs-prev-btn" for="slide-5"></label>
+						<label class="fs-prev-btn" for="slide-6"></label>
+					</div>
+		
+				<!-- Next Navigation -->
+					<div class="fs-next-nav">
+						<label class="fs-next-btn" for="slide-4"></label>
+						<label class="fs-next-btn" for="slide-5"></label>
+						<label class="fs-next-btn" for="slide-"></label>
+					</div>
+				</div>
+			</div>
+			</section>
 			<!-- Добавить слайдер фотографий + подобрать фотографии -->
 
 			<section class="about-ctip">
@@ -174,5 +254,7 @@
 			</span>
 		</section>
 	</footer>
+
+	<!-- Скрипты -->
 </body>
 </html>
