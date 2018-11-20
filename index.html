@@ -3,13 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ЦИТП им. Я.В. Косицкого / Главная</title>
+	<link rel="stylesheet" href="css/normalize/.css">
+	<link rel="stylesheet" href="css/style-main.css">
 	<link rel="stylesheet" href="css/slide-animation-main.css">
 </head>
 <body>
 	<header class="main-header">
 		<h1 class="visibility-hidden">Центральный Институт типового проектирования и градостроитльства им. Я.В. Косицкого</h1>
-		<img src="img/Bitmap.svg" alt="Логотип компании" class="logo">
 		<section class="info-header">
+			<img src="img/logo.png" alt="Логотип компании" class="logo">
 			<h2 class="visibility-hidden">Контактная информация</h2>
 			<p class="info-header-contacts">
 				<strong>+7 (495) 106-11-34</strong><br>
@@ -84,6 +86,8 @@
 		</section>
 		<section class="about">
 			<h2>О проектном институте</h2>
+			<!-- НЕ РАБОТАЕТ ПОФИКСИТЬ -->
+
 			<section class="slider-photo-about">
 				<div class="container-photo">
 				<div data-am-fadeshow="next-prev-navigation">
@@ -166,7 +170,6 @@
 			</section>
 			<div class="hidden">
 				<!-- Добавить кнопку скрыть/показать текст -->
-
 				<section class="license">
 					<h2>Наша лицензия</h2>
 					<img src="#" alt="Лицензия">
@@ -217,9 +220,23 @@
 			<span class="form-worktime">Режим работы: будние дни с 10:00 до 18:30</span>
 			<!-- Добавить форму -->
 
-			<p class="form-consultant">
-				Для подробной консультации о стоимости проектных работ и сроках выполнения по Вашему объекту свяжитесь со специалистом по тел.: +7 495 106 11 34
-			</p>
+
+			<form action="#" method="post" name="#">
+				<input type="text" placeholder="ФИО" name="#" required>
+				<ul class="form-list-1">
+					<li><input type="tel" placeholder="Контактный номер" required name="#"></li>
+					<li><input type="text" required></li>
+				</ul>
+				<ul class="form-list-2">
+					<li><input type="number" placeholder="Площадь" required ></li>
+					<li><input type="text" required placeholder="Характер застройки"></li>
+				</ul>
+
+				<p class="form-consultant">
+					Для подробной консультации о стоимости проектных работ и сроках выполнения по Вашему объекту свяжитесь со специалистом по тел.: +7 495 106 11 34
+				</p>
+				<input type="submit">
+			</form>
 		</section>
 		<section class="example">
 			<h2>Примеры наших работ</h2>

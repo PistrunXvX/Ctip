@@ -1,0 +1,51 @@
+/* Visiblity hidden content */
+.visibility-hidden {
+	display: none;
+}
+
+body {
+	min-height: 500px;
+}
+
+/* Header */
+header {
+	min-width: 500px;
+}
+
+
+.info-header {
+	display:flex;
+	flex-direction: row;
+	height: 100px;
+	width: 100%;
+	outline: 3px solid #738FAF;
+	background: url("img/slider-about-1.png") no-repeat;
+	background-size: 
+
+}
+
+.info-header p {
+	display: block;
+	min-width: 300px;
+	margin-left: 5%;
+	word-wrap: normal;
+	font-style: "Avenir Next", Times, serif;
+	margin-top: 1.5%;
+}
+
+.info-header-contacts strong {
+	font-size: 1.875em;
+	font-weight: normal;
+}
+
+.info-header-mail {
+	font-size: 1.125em;
+	font-weight: normal;
+	color: #9B9B9B;
+}
+
+.info-header-worktime {
+	font-size: 1.250em;
+	color: #113767;
+	font-style: "Helvetica", Times, serif;
+}
