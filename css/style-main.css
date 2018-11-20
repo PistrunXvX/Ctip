@@ -5,6 +5,9 @@
 
 body {
 	min-height: 500px;
+	font-family: Helvetica, Times, serif;
+	margin: 0;
+	padding: 0;
 }
 
 /* Header */
@@ -12,25 +15,26 @@ header {
 	min-width: 500px;
 }
 
+.decor-header {
+	background: url("../img/header-decor.svg") no-repeat;
+	background-size: cover;
+	width: inherit;
+	height: inherit;
+}
 
 .info-header {
 	display:flex;
 	flex-direction: row;
-	height: 100px;
+	height: 103px;
 	width: 100%;
-	outline: 3px solid #738FAF;
-	background: url("img/slider-about-1.png") no-repeat;
-	background-size: 
-
+	border-bottom: 10px solid #738FAF;
 }
 
 .info-header p {
 	display: block;
-	min-width: 300px;
-	margin-left: 5%;
-	word-wrap: normal;
-	font-style: "Avenir Next", Times, serif;
-	margin-top: 1.5%;
+	white-space: nowrap;
+	font-family: : AvenirNext, Times, serif;
+	margin: 40px 10px 23px 10px;
 }
 
 .info-header-contacts strong {
@@ -42,10 +46,101 @@ header {
 	font-size: 1.125em;
 	font-weight: normal;
 	color: #9B9B9B;
+	background: url("../img/Line 19.svg") no-repeat;
+	background-size: contain;
 }
 
 .info-header-worktime {
 	font-size: 1.250em;
-	color: #113767;
-	font-style: "Helvetica", Times, serif;
+	color: #738FAF;
+}
+
+/* Header nav */
+.main-navigation {
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 100%;
+}
+
+.main-navigation .selected-item {
+	color: #133869;
+	background: url("../img/Line_2.svg") no-repeat;
+	background-position: 50% 80%;
+}
+
+.main-navigation ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 1.250em;
+	text-transform: uppercase;
+	color: #556988;
+}
+
+.main-navigation li {
+	display: inline;
+}
+
+.main-navigation a {
+	display: inline-block;
+	text-decoration: none;
+	color: #556988;	
+	padding: 14px 24px;
+	font-weight: bold;
+}
+
+.main-navigation a:hover {
+	color: #133869;
+}
+
+.main-navigation a:active {
+	color: rgba(63, 93, 143, 0.5);
+}
+
+/* features */ 
+
+.features {
+	height: 287px;
+	background-color: rgba(216, 216, 216, 0.24);
+	width: 100%;
+}
+
+.features ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	min-width: inherit;
+}
+
+.features li {
+	display: inline-block;
+	width: 33%;
+	height: 50%;
+	border-right: 1px solid #979797;
+}
+
+.features-list p {
+	font-size: 1.875em;
+	text-align: center;
+	font-family: AvenirNext, Times, sans-serif;
+	padding-top: 165px;
+	font-weight: bold;
+	color: #133869;
+	white-space: nowrap;
+}
+
+.features-item-1 {
+	background: url("../img/feature-decor-1.svg") no-repeat;
+	background-position: 50% 50%;
+}
+
+.features-item-2 {
+	background: url("../img/features-decor-2.svg") no-repeat;
+	background-position: 50% 50%;
+}
+
+.features-list .features-item-3 {
+	background: url("../img/features-decor-3.svg") no-repeat;
+	background-position: 50% 50%;
+	border-right: none;
 }
