@@ -792,6 +792,6 @@ body {
   right: 0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  padding-top: 20%;
   margin: 0 20%;
+  height: 335px;
 }
