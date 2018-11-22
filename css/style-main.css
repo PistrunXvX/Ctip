@@ -283,6 +283,7 @@ header {
 
 .category-list a {
 	color: white;
+	text-decoration: none;
 }
 
 .category-list li {
@@ -333,4 +334,115 @@ header {
 	background-position: 50% 30%;
 }
 
+/* Form */
 
+.form {
+	height: 1105px;
+	background: url("../img/bg-fon.svg"),
+				url("../img/bg-form.jpg");
+	color: #0D3366;
+}
+
+.form b {
+	display: inline-block;
+	font-size: 3em;
+	font-family: "Avenir Next", Times, serif;
+	width: 1000px;
+	height: 135px;
+	margin: 66px 365px 0 53px;
+}
+
+.form-worktime {
+	text-align: center;
+	font-size: 1.250em;
+	font-weight: bold;
+}
+
+.form form {
+	height: 400px;
+	width: 735px;
+	margin: 5% 25%;
+}
+
+.form input {
+	width: 100%;
+	height: 53px;
+	border-radius: 12px;
+	font-size: 1.5em;
+}
+
+.form ul {
+	display: inline-block;
+	padding-bottom: 56px;
+}
+
+.form li {
+	padding-top: 55px;
+	width: 300px;
+}
+
+textarea {
+	resize: none;
+	font-size: 1.5em;
+	border-radius: 12px;
+}
+
+.btn-form {
+	height: 70px;
+	width: 	235px;
+	margin: 0 35%;
+	border-radius: 12px;
+	font-size: 1.5em;
+	background-color: #0D3366;
+	color: white;
+	border-style: none;
+}
+
+.btn-form:hover {
+	background-color: #506c8d;
+}
+
+.btn-form:active {
+	background-color: #728FB1;
+}
+
+.form-consultant {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+/* footer */ 
+
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: #383838;
+}
+
+footer ul {
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+footer li {
+	padding-bottom: 45px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.second-nav {
+	position: relative;
+}
+
+.copyright {
+	display: block;
+	color: #9b9b9b;
+}
+
+.contacts-number {
+	float: right;
+}
